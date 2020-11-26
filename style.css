@@ -1,0 +1,45 @@
+
+.c35{
+  background: #f7f9fc;
+}
+
+.white-box35 {
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.5px 2px 1px #eee;/*box-shadow: x,y, blur.spread */
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.c35 .intro{
+  width: 30%;
+  margin: auto;
+}
+
+.c35 .detail i{
+  color: rgb(0,122,255);
+  font-size: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+.c35 .detail i:hover{
+  font-size: 4rem;
+}
+.c35 .skills{
+  margin: 4rem;
+}
+
+/* display: inline-block: 가로정렬©, 높이,폭조절© */
+.c35 .skills button{
+  display: inline-block; 
+	border: 1px solid lightgray;
+	border-radius: 100px;
+	padding: 3px 12px 5px 12px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+}
